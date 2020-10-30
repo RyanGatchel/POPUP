@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <title> EXAMPLE SITE </title>
+	
+	<!--First Part-->
+  <!--*******Optional*****************-->
+  <meta name="author" content="Ryan - Blue Black Digital">
+  <meta name="description" content="popup code that can be used as a coupon, email catch, or other form of popup form. ">
+  <meta name="keywords" content="popup, form, popup form">
+  <!--*******Optional*****************-->
+  
+  <!--*******Not Optional*************-->
+  <!--First Part-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--*******Not Optional*************-->
+  <!--First Part End --> 
+  
+  
+</head>
+  <body>
+  <h1>This is a test site :)</h1>
+  
+  <!--Second Part-->
+  	<div id="couponModal" class="modal">
+	<div class="coupon-modal-content">
+		<span class="close" data-dismiss="modal">&times;</span>
+		  <!--You can change this--> <h2>Want to save $200 on a site package?</h2> 
+		  
+    <form action="https://api.staticforms.xyz/submit" method="post">
+	<!--put your access code here--><input type="hidden" name="accessKey" value="your access code here">
+		 <input type="hidden" name="subject" value="Coupon Popup"> <!-- Optional -->
+        <div class="form-group">
+          <label for="name">Name: </label>
+          <input type="text" class="form-control" name="name" id="name" placeholder="Your name"  required type="text">
+        </div>
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input type="text" class="form-control" name="email" id="email" placeholder="Your email" required type="email">
+        </div>
+		<!-- If we receive data in this field submission will be ignored -->
+		<input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
+		<!--put your email here--><input type="hidden" name="redirectTo" value="Your email goes here"> 
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+	</div>
+	</div>
+  <!--Second Part End-->
+  
+  <!--Third Part End-->
+	  <script src="coupon.js"></script>
+  <!--Third Part End-->
+
+	
+  </body>
+</html>
