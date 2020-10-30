@@ -14,5 +14,13 @@ Second: You have to put the code that is labeled <!--First Part--> and <!--First
   
 Third: You have to put the code that is labeled <!--Second Part--> and <!--Second Part End--> between your <body> element.
   
-Third: You have to put the code that is labeled <!--Third part--> and <!--Third Part End--> just before your <body> element ends.
+Fourth: You have to put the code that is labeled <!--Third part--> and <!--Third Part End--> just before your <body> element ends.
   
+Fifth: Copy the Coupon.js and Main.css create a file and put the code in the seperate files. 
+
+Don't forget to put in your access code and email in these spots : 
+<!--put your access code here--><input type="hidden" name="accessKey" value="your access code here">
+<!--put your email here--><input type="hidden" name="redirectTo" value="Your email goes here"> 
+
+If you don't have a web designer but need one I would love to work with you: https://squareup.com/appointments/book/ckbvqiubm4tjpb/Q7R93F9966FWK/date
+
