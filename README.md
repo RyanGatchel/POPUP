@@ -4,7 +4,7 @@ First: I tested this on Chrome and Firefox it worked just fine! When I tried it 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Hey this is some code to add a popup on your website. This is best used for sites built on bootstrap or sites built with pure html,css, and javascript. If you found this without following the link off of YouTube you can see the video tut here ( link ) :) 
+Hey this is some code to add a popup on your website. This is best used for sites built on bootstrap or sites built with pure html,css, and javascript. If you found this without following the link off of YouTube you can see the video tut here ( https://youtu.be/7MBuRimnjo0 ) :) 
 
 If you don't want to see the video and feel like trying it without here you go: 
 
